@@ -37,8 +37,10 @@ go run main.go
 
 The application exposes the following endpoints:
 
-POST /upload: Upload a file to telegra.ph and get a shareable URL. 5MB file size limit (telegra.ph limit)
-GET /:key: Retrieve the file using the generated key.
+`POST /upload`: Upload a file to telegra.ph and get a shareable URL. 5 MB
+
+`GET /:key`: Retrieve the file using the generated key.
+
 
 ## License
 This project is licensed under the MIT License.
